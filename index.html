@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base/layout.css">
+    <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/pages/index.css">
+    <link rel="stylesheet" href="./css/base/variables.css">
+    <link rel="stylesheet" href="./css/base/utility-clases.css">
+    <link rel="stylesheet" href="./css/conponentes/label.css">
+    <link rel="stylesheet" href="./css/conponentes/input.css">
+    <link rel="stylesheet" href="./css/conponentes/send-button.css">
+    <link rel="stylesheet" href="./css/conponentes/cancelar-button.css">
+</head>
+<body>
+    <section>
+        <header></header>
+        <aside>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                </svg> 
+                <p>Añadir Empleados</p>                 
+            </a>
+
+        </aside>
+        <main>
+            <div  class="container-registrar-empleados">
+                <H2>Registro de Empleado</H2>
+                <br>
+                <p>Complete el siguiente formulario para registrar un nuevo empleado en el sistema.</p>
+                <br>
+                <br>
+                <form action="#" class="form-registrar-empleados">
+                    <div>
+                        <label class="label" for="nombre">Nombre (s)</label>
+                        <input type="text" placeholder="Juan" id="nombre" class="input">
+                    </div>
+
+                    <div>
+                        <label class="label" for="apellidoP">Apellido Paterno</label>
+                        <input type="text" name="apellidoP" placeholder="Perez" class="input">
+                    </div>
+
+                    <div>
+                        <label  class="label" for="fechaNacimiento">Fecha de Nacimiento</label>
+                        <input class="input" type="datetime-local" name="fechaNacimiento" placeholder="Fecha de Nacimiento" >
+                    </div>
+
+                    <div>
+                        <label class="label" for="genero">Genero</label>
+                        <select class="select" name="genero" name=" genero">
+                            <option value="">Genero</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                            <option value="Otro">Otro</option>
+                            <option value="noDecir">Prefiero no decirlo</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="label" for="sexo">Sexo</label>
+                        <select class="select" name="sexo" id="">
+                            <option value="">Sexo</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="label" for="puesto">Puesto</label>
+                        <select class="select" name="puesto">
+                            <option value="">Puesto</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="label" for="horasSemana">Horas por Semana</label>
+                        <input class="input" type="number" placeholder="10" >
+                    </div>
+
+                    <div>
+                        <label class="label" for="fechaIngreso">Fecha de Ingreso</label>
+                        <input class="input" type="datetime-local">
+                    </div>
+                    <button type="reset" class="cancelar-button">Cancelar</button>
+                    <button type="submit" class="enviar-button">Registrar</button>
+                </form>
+            </div>
+        </main>
+    </section>
+</body>
+</html>

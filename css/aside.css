@@ -1,0 +1,17 @@
+aside a{
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 15px;
+    
+}
+
+aside a:hover{
+background-color: #292929;
+}

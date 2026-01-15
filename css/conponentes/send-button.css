@@ -1,0 +1,13 @@
+.enviar-button{
+    background-color: #446CE4;
+    color: black;
+    border: none;
+    font-weight: 600;
+    width: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

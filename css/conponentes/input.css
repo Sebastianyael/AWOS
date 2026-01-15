@@ -1,0 +1,25 @@
+.input{
+    background-color: var(--input-background);
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+
+.select{
+    background-color: var(--input-background);
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-size: 15px;
+}
+
+.input-dateTime[type="datetime-local"] {
+    color: #fff;
+    color-scheme: dark;
+  }

@@ -1,0 +1,29 @@
+
+    .container-registrar-empleados{
+        width: 60%;
+        min-width: 420px;
+        height: auto;
+        padding: 1rem;
+        border: 1px solid #3c4450;
+        background-color: #1E2229;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+        .form-registrar-empleados{
+            padding: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            gap: 30px;
+        }
+
+      
+
+        .form-registrar-empleados div{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            gap: 15px;
+        }
+       
