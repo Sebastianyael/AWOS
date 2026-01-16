@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/aside.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/header.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/pages/index.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="./css/pages/agregarRol.css?v=<?php echo time(); ?>">
+
     <link rel="stylesheet" href="./css/base/variables.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/base/utility-clases.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="./css/conponentes/label.css?v=<?php echo time(); ?>">
@@ -21,9 +21,9 @@
         <header></header>
         <aside>
             <a href="./index.php">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
-            </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5" />
+                </svg>
                 <p>Dashboard</p>                 
             </a>
 
@@ -49,73 +49,54 @@
 
                 <p>Agregar Pago</p>                 
             </a>
-
-
         </aside>
         <main>
-        <?php
-            require './php/bd.php';
+            <div class="container-registrar-empleados">
+            <?php
+                require './php/bd.php';
 
-            $sql = "
-                SELECT 
-                    ep.id_empleado,
-                    ep.nombre_empleado,
-                    ep.apellido_paterno,
-                    ep.nombre_puesto,
-                    ep.horas_semana AS horas_trabajo,
-                    p.id_pago,
-                    p.clave,
-                    p.horas_semana AS horas_pagadas,
-                    p.pago
-                FROM empleado_puesto ep
-                LEFT JOIN pagos p ON p.id_empleado = ep.id_empleado
-            ";
+                $datos_empleado = $conexion->query("SELECT id_empleado,nombre_empleado,apellido_paterno,horas_semana,nombre_puesto FROM empleado_puesto WHERE estado = 'activo'");
+                
+    
+                if($datos_empleado->num_rows > 0){
+                    echo "<table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse; text-align: center;font-size:15px;'>
+                            <tr>
 
-            $resultado = $conexion->query($sql);
+                                <th>Persona</th>
+                                <th>Puesto</th>
+                                <th>H/S</th>
+                                <th>H/T</th>
+                                
+                        </tr>";
 
-            if ($resultado->num_rows > 0) {
-
-                echo "
-                <table border='1' cellpadding='8' cellspacing='0' 
-                    style='border-collapse: collapse; text-align: center; font-size:15px;'>
-                    <tr>
-                        <th>#</th>
-                        <th>Clave</th>
-                        <th>Empleado</th>
-                        <th>Puesto</th>
-                        <th>Horas/S</th>
-                        <th>Horas/T</th>
-                        <th>Pago</th>
-                    </tr>
-                ";
-
-                $contador = 1;
-                while ($row = $resultado->fetch_assoc()) {
-                    echo "
-                    <tr>
-                        <td>{$contador}</td>
-                        <td>{$row['clave']}</td>
-                        <td>{$row['nombre_empleado']} {$row['apellido_paterno']}</td>
-                        <td>{$row['nombre_puesto']}</td>
-                        <td>{$row['horas_trabajo']}</td>
-                        <td>{$row['horas_pagadas']}</td>
-                        <td>$ {$row['pago']}</td>
-                    </tr>
-                    ";
-                    $contador++;
+                        while ($row = $datos_empleado->fetch_assoc()) {
+                            echo "
+                            <tr>
+                                <form action='./php/CRUDPagos/registrar.php' method='post'>
+                            
+                                <td>{$row['nombre_empleado']} {$row['apellido_paterno']}</td>
+                                <td>{$row['nombre_puesto']}</td>
+                                <td>
+                                    <input type='number' name='horasSemana' placeholder='Horas por semana'>
+                                </td>
+                                <td>{$row['horas_semana']}</td>
+                            
+                                <td><button type='submit'>Registrar</button></td>
+                                <input type='hidden' name='id_empleado' value={$row['id_empleado']}'>
+                                </form>
+                                
+                            </tr>
+                            ";}
+                }else{
+                    echo "No hay registro para mostrar";
                 }
-
-                echo "</table>";
-
-            } else {
-                echo "No hay registros para mostrar";
-            }
-
-            $conexion->close();
             ?>
+            </div>
 
+        
         </main>
     </section>
+
     
 </body>
 </html>
