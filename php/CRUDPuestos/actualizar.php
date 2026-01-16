@@ -5,11 +5,16 @@
     $pagoHora = $_POST['pagoHora'];
     $pagoAdicional = $_POST['pagoAdicional'];
 
-    if($conexion->query("UPDATE puestos SET sueldo_hora = '$pagoHora' , sueldo_adicional = '$pagoAdicional' WHERE id_puesto = '$id_puesto' ") === TRUE){
-        echo "<script>alert('Registro Actualizado'); window.history.back();</script>";
+    if($pagoHora <= 0 || $pagoAdicional <= 0){
+        echo "<script>alert('El sueldo no puede ser negativo o cero'); window.history.back();</script>";
     }else{
-         echo "<script>alert('ERROR: " . $conexion->error . "'); window.history.back();</script>";
+        if($conexion->query("UPDATE puestos SET sueldo_hora = '$pagoHora' , sueldo_adicional = '$pagoAdicional' WHERE id_puesto = '$id_puesto' ") === TRUE){
+            echo "<script>alert('Registro Actualizado'); window.history.back();</script>";
+        }else{
+             echo "<script>alert('ERROR: " . $conexion->error . "'); window.history.back();</script>";
+        }
     }
+
 
     $conexion->close();
 ?>
