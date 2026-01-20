@@ -14,8 +14,7 @@
         $registrarPago = $conexion->query("INSERT INTO pagos(id_empleado , horas_semana , pago) VALUES($id_empleado , $horasSemana , $pago)");
         $id = $conexion->insert_id;
         $codigo = $id . $fecha_actual;
-        $conexion->query("UPDATE pagos SET clave = '$codigo' WHERE id_pago = $id");
-        
+        $conexion->query("UPDATE pagos SET clave = '$codigo' WHERE id_pago = $id");       
         echo "<script>alert('Pago registrado'); window.history.back();</script>";
     }
 

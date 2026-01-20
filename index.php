@@ -111,8 +111,20 @@
                 echo "No hay registros para mostrar";
             }
 
-            $conexion->close();
+            
             ?>
+
+            <p>
+                <?php
+                    $pagos_query = $conexion->query("SELECT pago FROM pagos");
+                    $total = 0;
+                    while($row = $pagos_query->fetch_assoc()){
+                        $total += $row['pago'];
+                    }
+                    echo "Total:  $total  ";
+                    $conexion->close();
+                ?>
+            </p>
 
         </main>
     </section>
